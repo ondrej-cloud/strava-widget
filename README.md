@@ -13,6 +13,15 @@ máš na ploše hned, jedním pohledem.
 Data si drží v cache, takže widget ukáže jídelníček i bez signálu. Přizpůsobuje
 se světlému i tmavému režimu iOS.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="screenshots/widgety-tmave.png">
+    <img src="screenshots/widgety-svetle.png" width="754" alt="Widget Jídelníček na ploše iPhonu – velký, střední a dva malé (dnes a zítra)">
+  </picture>
+  <br>
+  <sub>Náhled vykreslený ze skutečného kódu widgetu, jídelníček je smyšlený.</sub>
+</p>
+
 ## Instalace
 
 1. Stáhni si **Scriptable** z App Storu (zdarma).
@@ -73,14 +82,9 @@ dalším překreslení, viz *Proč widget po objednávce hned neukáže změnu*.
 
 ## Widget
 
-```
-Zítra 10. 9.                       323 Kč
-  POLÉVKA   Hovězí s masem a nudlemi
-  OBĚD 1    Krupicová kaše s máslem, cukrem…
-  OBĚD 2    Fusilli ala bolognese s vepřovým…
-  SVAČINA   Avokádová pomazánka, žitný rohlík…
-○ nic — lze do 9. 9. 10:00
-```
+<p align="center">
+  <img src="screenshots/svetly-tmavy.png" width="754" alt="Střední widget Jídelníček v tmavém a světlém režimu">
+</p>
 
 Objednané jídlo má korálové podbarvení a tučný název, ostatní sedí na sotva
 znatelném tmavším pruhu. Patička je korálová, když něco objednáno máš, jinak
@@ -113,6 +117,10 @@ Chceš víc dní naráz bez swipování? Dej **velký** widget — má tři dny 
 - zamčená jídla (po termínu) jsou vyšisovaná, ťuknutí řekne proč
 - pod dnem je termín, do kdy jde ještě objednávat
 - po zavření appky se obnoví cache, aby widget na ploše nedržel starý stav
+
+<p align="center">
+  <img src="screenshots/appka.png" width="560" alt="Appka Jídelníček po ťuknutí na widget, v tmavém a světlém režimu">
+</p>
 
 Polévka je u tvojí jídelny vždycky zamčená — jde k obědu automaticky, zdarma (0 Kč),
 nedá se objednat zvlášť. Objednávat jde Oběd 1, Oběd 2 a Svačina.
